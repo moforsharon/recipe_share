@@ -33,7 +33,7 @@ interface Recipe {
 async function getRecipes() {
   try {
     // In production, this would fetch from your API
-    const res = await fetch("http://localhost:8000/api/meals/", { next: { revalidate: 3600 } });
+    const res = await fetch("http://209.74.89.164:8000/api/meals/", { next: { revalidate: 3600 } });
 
     if (!res.ok) {
       // This will activate the closest `error.js` Error Boundary

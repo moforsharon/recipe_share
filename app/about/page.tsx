@@ -29,7 +29,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <div className="relative h-96">
         <Image
-          src={"http://localhost:8000/media/meals/Chicken_Karaage.jpg"}
+          src={"http://209.74.89.164:8000/media/meals/Chicken_Karaage.jpg"}
           alt="About RecipeShare"
           fill
           className="object-cover"

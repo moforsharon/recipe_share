@@ -7,7 +7,7 @@ import Link from "next/link";
 
 // Fetch categories from the API
 async function getCategories(): Promise<Category[]> {
-    const res = await fetch("http://localhost:8000/api/categories");
+    const res = await fetch("http://209.74.89.164:8000/api/categories");
   
     if (!res.ok) {
       throw new Error("Failed to fetch categories");
@@ -18,7 +18,7 @@ async function getCategories(): Promise<Category[]> {
   
   // Fetch all meals from the API
   async function getMeals(): Promise<Meal[]> {
-    const res = await fetch("http://localhost:8000/api/meals/");
+    const res = await fetch("http://209.74.89.164:8000/api/meals/");
   
     if (!res.ok) {
       throw new Error("Failed to fetch meals");
