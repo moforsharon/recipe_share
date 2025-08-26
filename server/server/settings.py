@@ -59,7 +59,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://recipe-share-ten.vercel.app/', 
+    'https://recipe-share-ten.vercel.app', 
 ]
 
 ROOT_URLCONF = 'server.urls'
